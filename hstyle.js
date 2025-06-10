@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'https://unpkg.com/lit?module';
+import './socialwid/socialwidget.js';
 
 class HStyle extends LitElement {
     static styles = css`
@@ -10,7 +11,7 @@ class HStyle extends LitElement {
     margin-bottom: 2%;
     display: grid;
     background-color: pink;
-    grid-template-columns: 32% 37% 26%;
+    grid-template-columns: clamp(200px, 32%, 580px) clamp(300px, 37%, 680px) clamp(180px, 26%, 450px);
     grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
     justify-content: center;
     align-content: center;
@@ -65,7 +66,7 @@ class HStyle extends LitElement {
         return html`
         <div class="container">
             <div class="namebox">Box 1</div>
-            <div class="socialbox">Box 2</div>
+            <div class="socialbox"> <social-widget></social-widget> </div>
             <div class="projectbox">Box 3</div>
             <div class="abtmebox">Box 4</div>
             <div class="edbox">Box 5</div>
