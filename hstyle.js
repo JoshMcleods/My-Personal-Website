@@ -12,7 +12,7 @@ class HStyle extends LitElement {
     display: grid;
     background-color: pink;
     grid-template-columns: clamp(200px, 32%, 580px) clamp(300px, 37%, 680px) clamp(180px, 26%, 450px);
-    grid-template-rows: 15vh 15vh 15vh 15vh 15vh;
+    grid-template-rows: 17vh 15vh 13vh 15vh 15vh;
     justify-content: center;
     align-content: center;
     text-align: center;
@@ -26,6 +26,7 @@ class HStyle extends LitElement {
         grid-row-start: 1;
         grid-row-end: 6;
         background-color: gray;
+        border-radius: 20px;
     }
 
      .socialbox {
@@ -33,7 +34,8 @@ class HStyle extends LitElement {
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
-        background-color: red;
+        background-color: black;
+        border-radius: 20px;
     }
 
      .projectbox {
@@ -42,6 +44,7 @@ class HStyle extends LitElement {
         grid-row-start: 2;
         grid-row-end: 6;
         background-color: orange;
+        border-radius: 20px;
     }
 
      .abtmebox {
@@ -50,6 +53,7 @@ class HStyle extends LitElement {
         grid-row-start: 1;
         grid-row-end: 4;
         background-color: grey;
+        border-radius: 20px;
     }
 
       .edbox {
@@ -58,6 +62,7 @@ class HStyle extends LitElement {
         grid-row-start: 4;
         grid-row-end: 6;
         background-color: green;
+        border-radius: 20px;
     }
 
     `;
