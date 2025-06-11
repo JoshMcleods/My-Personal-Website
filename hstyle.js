@@ -3,6 +3,7 @@ import './socialwid/socialwidget.js';
 
 class HStyle extends LitElement {
     static styles = css`
+
     .container{
     height: 90vh;
     margin-top: 2%;
@@ -10,7 +11,7 @@ class HStyle extends LitElement {
     margin-right: 7%;
     margin-bottom: 2%;
     display: grid;
-    background-color: pink;
+    background-color: rgb(155, 196, 226);
     grid-template-columns: clamp(200px, 32%, 580px) clamp(300px, 37%, 680px) clamp(180px, 26%, 450px);
     grid-template-rows: 17vh 15vh 13vh 15vh 15vh;
     justify-content: center;
@@ -25,7 +26,7 @@ class HStyle extends LitElement {
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 6;
-        background-color: gray;
+        background-color:rgb(42, 62, 124);
         border-radius: 20px;
     }
 
@@ -34,7 +35,7 @@ class HStyle extends LitElement {
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
-        background-color: black;
+        background-color: rgb(90, 123, 148);
         border-radius: 20px;
     }
 
@@ -43,7 +44,7 @@ class HStyle extends LitElement {
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 6;
-        background-color: orange;
+        background-color: rgb(90, 123, 148);
         border-radius: 20px;
     }
 
@@ -52,7 +53,7 @@ class HStyle extends LitElement {
         grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 4;
-        background-color: grey;
+        background-color: rgb(90, 123, 148);
         border-radius: 20px;
     }
 
@@ -61,7 +62,7 @@ class HStyle extends LitElement {
         grid-column-end: 4;
         grid-row-start: 4;
         grid-row-end: 6;
-        background-color: green;
+        background-color: rgb(90, 123, 148);
         border-radius: 20px;
     }
 
