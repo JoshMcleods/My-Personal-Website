@@ -42,6 +42,15 @@ class NameWidget extends LitElement {
     color: black;
   }
   
+  th {
+  color: orange;
+  }
+
+  tr, td {
+  color: red;
+  width: 30vh;
+  }
+
   `;
 
 
@@ -55,6 +64,19 @@ class NameWidget extends LitElement {
     <h1> Joshua Mcleod </h1>
 
     <p class="body-para"> Hi this is the body paragraph where I will give a short insight about myself </p>
+
+    <table>
+    <tr> 
+      <th> column 1 </th> 
+      <th> column 2 </th> 
+    </tr>
+      
+    <tr>
+      <td> Practice table </td>
+      <td> js playing around </td>
+    </tr>
+    </table>
+
   `
   }
 }
