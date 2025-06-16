@@ -76,8 +76,8 @@ class HStyle extends LitElement {
             <div class="namebox"> <name-widget></name-widget> </div>
             <div class="socialbox"> <social-widget></social-widget> </div>
             <div class="projectbox"> <project-widget></project-widget> </div>
-            <div class="abtmebox">Box 4</div>
-            <div class="edbox">Box 5</div>
+            <div class="abtmebox"> Box 4 </div>
+            <div class="edbox"> Box 5 </div>
         </div>
         `;
     }

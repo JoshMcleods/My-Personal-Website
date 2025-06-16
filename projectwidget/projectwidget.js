@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'https://unpkg.com/lit?module';
 
-class ProjectWidgetWidget extends LitElement {
-    static styles = css` 
+class ProjectWidget extends LitElement {
+  static styles = css` 
 
   .name-container{
     display: flex;
@@ -40,6 +40,8 @@ class ProjectWidgetWidget extends LitElement {
   .body-para {
     font-size: 14; 
     color: black;
+    width: 400px;
+    text-align: center;
   }
   
   th {
@@ -55,15 +57,21 @@ class ProjectWidgetWidget extends LitElement {
 
 
 
-    render() {
-        return html`
+  render() {
+    return html`
     <div class="name-container">
-      <b> <img src="namewidget/IMG_6700.png" alt="Name Profile" /> </b>
+      <b> <img src="projectwidget/firstwebsite.png" alt="Group Website" /> </b>
     </div>
 
-    <h1> Joshua Mcleod </h1>
+    <h1> Website Project </h1>
 
-    <p class="body-para"> Hi this is the body paragraph where I will give a short insight about myself </p>
+    <p class="body-para"> 
+    this is the body paragraph where I talk abt the project,
+    how api was implemented and how auth tokens were used, how
+    the widgets work and what they do etc.
+    
+    
+    </p>
 
     <table>
     <tr> 
@@ -78,7 +86,7 @@ class ProjectWidgetWidget extends LitElement {
     </table>
 
   `
-    }
+  }
 }
 
 customElements.define('project-widget', ProjectWidget);
