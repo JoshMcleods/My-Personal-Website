@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'https://unpkg.com/lit?module';
-import './socialwid/socialwidget.js';
+import './socialwidget/socialwidget.js';
 import './namewidget/namewidget.js';
 import './projectwidget/projectwidget.js'
 
@@ -59,7 +59,7 @@ class HStyle extends LitElement {
         border-radius: 20px;
     }
 
-      .edbox {
+      .edubox {
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 4;
@@ -77,7 +77,7 @@ class HStyle extends LitElement {
             <div class="socialbox"> <social-widget></social-widget> </div>
             <div class="projectbox"> <project-widget></project-widget> </div>
             <div class="abtmebox"> Box 4 </div>
-            <div class="edbox"> Box 5 </div>
+            <div class="edubox"> Box 5 </div>
         </div>
         `;
     }

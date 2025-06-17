@@ -38,19 +38,19 @@ class SocialWidget extends LitElement {
     <a href="https://www.linkedin.com/in/joshua-mcleod-348306354/" 
           target="_blank"  
           rel="noopener noreferrer">
-          <img src="socialwid/linkinpfp.jpeg" alt="LinkedIn Profile">
+          <img src="socialwidget/linkinpfp.jpeg" alt="LinkedIn Profile">
         </a>
 
 <a href="https://github.com/JoshMcleods" 
           target="_blank"  
           rel="noopener noreferrer">
-          <img src ="socialwid/githubpfp.png" alt="Github Profile" />
+          <img src ="socialwidget/githubpfp.png" alt="Github Profile" />
         </a>
 
          <a href="https://tryhackme.com/p/cookiemansp" 
           target="_blank"  
           rel="noopener noreferrer">
-          <img src ="socialwid/thmpfp.png" alt="thm Profile" />
+          <img src ="socialwidget/thmpfp.png" alt="thm Profile" />
         </a>
 
         </div>
