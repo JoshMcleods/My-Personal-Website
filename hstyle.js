@@ -2,6 +2,9 @@ import { LitElement, html, css } from 'https://unpkg.com/lit?module';
 import './socialwidget/socialwidget.js';
 import './namewidget/namewidget.js';
 import './projectwidget/projectwidget.js'
+import './abtmewidget/abtmewidget.js'
+import './eduwidget/eduwidget.js'
+
 
 class HStyle extends LitElement {
     static styles = css`
@@ -76,8 +79,8 @@ class HStyle extends LitElement {
             <div class="namebox"> <name-widget></name-widget> </div>
             <div class="socialbox"> <social-widget></social-widget> </div>
             <div class="projectbox"> <project-widget></project-widget> </div>
-            <div class="abtmebox"> Box 4 </div>
-            <div class="edubox"> Box 5 </div>
+            <div class="abtmebox"> <abtme-widget></abtme-widget> </div>
+            <div class="edubox"> <education-widget></education-widget> </div>
         </div>
         `;
     }
