@@ -35,6 +35,8 @@ class NameWidget extends LitElement {
     font-size: 32px; 
     text-align: center;
     color: black;
+    text-decoration: underline;
+    text-underline-offset: 8px;
     } 
 
   .body-para {
