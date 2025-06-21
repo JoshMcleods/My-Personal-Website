@@ -69,7 +69,7 @@ class NameWidget extends LitElement {
 
     <table>
     <tr> 
-      <th> column 1 </th> 
+      <th> Put skills here in a table or possibkly a grid </th> 
       <th> column 2 </th> 
     </tr>
       
